@@ -21,78 +21,16 @@
                                 <div class="">
                                     <div>
                                         <div class="el-row" style="min-height: 200px;">
-                                            <div class="el-col el-col-8" style="padding: 10px;">
+                                            
+                                            <div class="el-col el-col-8" style="padding: 10px;" v-for="(item,index) in $static.fans.edges" :key="'fans'+index">
                                                 <div class="el-card is-hover-shadow" style="font-size: 13px; color: rgb(96, 98, 102); line-height: 20px;">
                                                     <!---->
                                                     <div class="el-card__body"><i class="el-icon-star-off"></i>&emsp;
-                                                        <a style="text-decoration: none; cursor: pointer;">lililiwj</a> <br> <i class="el-icon-message"></i>&emsp;
-                                                        <a href="https://github.com/lililiwj" target="_blank" style="text-decoration: none; cursor: pointer;">TA的主页</a> <br> <img src="https://avatars1.githubusercontent.com/u/38744589?v=4" style="width: 100%; border-radius: 5px; margin-top: 5px;"></div>
+                                                        <a style="text-decoration: none; cursor: pointer;">{{item.node.name}}</a> <br> <i class="el-icon-message"></i>&emsp;
+                                                        <a href="https://github.com/lililiwj" target="_blank" style="text-decoration: none; cursor: pointer;">TA的主页</a> <br> <img :src="'http://localhost:1337'+item.node.pic.url" style="width: 100%; border-radius: 5px; margin-top: 5px;"></div>
                                                 </div>
                                             </div>
-                                            <div class="el-col el-col-8" style="padding: 10px;">
-                                                <div class="el-card is-hover-shadow" style="font-size: 13px; color: rgb(96, 98, 102); line-height: 20px;">
-                                                    <!---->
-                                                    <div class="el-card__body"><i class="el-icon-star-off"></i>&emsp;
-                                                        <a style="text-decoration: none; cursor: pointer;">shuanghewuyanzu</a> <br> <i class="el-icon-message"></i>&emsp;
-                                                        <a href="https://github.com/shuanghewuyanzu" target="_blank" style="text-decoration: none; cursor: pointer;">TA的主页</a> <br> <img src="https://avatars1.githubusercontent.com/u/38081886?v=4" style="width: 100%; border-radius: 5px; margin-top: 5px;"></div>
-                                                </div>
-                                            </div>
-                                            <div class="el-col el-col-8" style="padding: 10px;">
-                                                <div class="el-card is-hover-shadow" style="font-size: 13px; color: rgb(96, 98, 102); line-height: 20px;">
-                                                    <!---->
-                                                    <div class="el-card__body"><i class="el-icon-star-off"></i>&emsp;
-                                                        <a style="text-decoration: none; cursor: pointer;">royalosyin</a> <br> <i class="el-icon-message"></i>&emsp;
-                                                        <a href="https://github.com/royalosyin" target="_blank" style="text-decoration: none; cursor: pointer;">TA的主页</a> <br> <img src="https://avatars1.githubusercontent.com/u/18584202?v=4" style="width: 100%; border-radius: 5px; margin-top: 5px;"></div>
-                                                </div>
-                                            </div>
-                                            <div class="el-col el-col-8" style="padding: 10px;">
-                                                <div class="el-card is-hover-shadow" style="font-size: 13px; color: rgb(96, 98, 102); line-height: 20px;">
-                                                    <!---->
-                                                    <div class="el-card__body"><i class="el-icon-star-off"></i>&emsp;
-                                                        <a style="text-decoration: none; cursor: pointer;">lengxing</a> <br> <i class="el-icon-message"></i>&emsp;
-                                                        <a href="https://github.com/lengxing" target="_blank" style="text-decoration: none; cursor: pointer;">TA的主页</a> <br> <img src="https://avatars0.githubusercontent.com/u/6905136?v=4" style="width: 100%; border-radius: 5px; margin-top: 5px;"></div>
-                                                </div>
-                                            </div>
-                                            <div class="el-col el-col-8" style="padding: 10px;">
-                                                <div class="el-card is-hover-shadow" style="font-size: 13px; color: rgb(96, 98, 102); line-height: 20px;">
-                                                    <!---->
-                                                    <div class="el-card__body"><i class="el-icon-star-off"></i>&emsp;
-                                                        <a style="text-decoration: none; cursor: pointer;">loachfighter</a> <br> <i class="el-icon-message"></i>&emsp;
-                                                        <a href="https://github.com/loachfighter" target="_blank" style="text-decoration: none; cursor: pointer;">TA的主页</a> <br> <img src="https://avatars1.githubusercontent.com/u/23497780?v=4" style="width: 100%; border-radius: 5px; margin-top: 5px;"></div>
-                                                </div>
-                                            </div>
-                                            <div class="el-col el-col-8" style="padding: 10px;">
-                                                <div class="el-card is-hover-shadow" style="font-size: 13px; color: rgb(96, 98, 102); line-height: 20px;">
-                                                    <!---->
-                                                    <div class="el-card__body"><i class="el-icon-star-off"></i>&emsp;
-                                                        <a style="text-decoration: none; cursor: pointer;">rocky-191</a> <br> <i class="el-icon-message"></i>&emsp;
-                                                        <a href="https://github.com/rocky-191" target="_blank" style="text-decoration: none; cursor: pointer;">TA的主页</a> <br> <img src="https://avatars0.githubusercontent.com/u/13551340?v=4" style="width: 100%; border-radius: 5px; margin-top: 5px;"></div>
-                                                </div>
-                                            </div>
-                                            <div class="el-col el-col-8" style="padding: 10px;">
-                                                <div class="el-card is-hover-shadow" style="font-size: 13px; color: rgb(96, 98, 102); line-height: 20px;">
-                                                    <!---->
-                                                    <div class="el-card__body"><i class="el-icon-star-off"></i>&emsp;
-                                                        <a style="text-decoration: none; cursor: pointer;">jh2k15</a> <br> <i class="el-icon-message"></i>&emsp;
-                                                        <a href="https://github.com/jh2k15" target="_blank" style="text-decoration: none; cursor: pointer;">TA的主页</a> <br> <img src="https://avatars0.githubusercontent.com/u/24727024?v=4" style="width: 100%; border-radius: 5px; margin-top: 5px;"></div>
-                                                </div>
-                                            </div>
-                                            <div class="el-col el-col-8" style="padding: 10px;">
-                                                <div class="el-card is-hover-shadow" style="font-size: 13px; color: rgb(96, 98, 102); line-height: 20px;">
-                                                    <!---->
-                                                    <div class="el-card__body"><i class="el-icon-star-off"></i>&emsp;
-                                                        <a style="text-decoration: none; cursor: pointer;">1309822767</a> <br> <i class="el-icon-message"></i>&emsp;
-                                                        <a href="https://github.com/1309822767" target="_blank" style="text-decoration: none; cursor: pointer;">TA的主页</a> <br> <img src="https://avatars0.githubusercontent.com/u/34164741?v=4" style="width: 100%; border-radius: 5px; margin-top: 5px;"></div>
-                                                </div>
-                                            </div>
-                                            <div class="el-col el-col-8" style="padding: 10px;">
-                                                <div class="el-card is-hover-shadow" style="font-size: 13px; color: rgb(96, 98, 102); line-height: 20px;">
-                                                    <!---->
-                                                    <div class="el-card__body"><i class="el-icon-star-off"></i>&emsp;
-                                                        <a style="text-decoration: none; cursor: pointer;">Tarhyru</a> <br> <i class="el-icon-message"></i>&emsp;
-                                                        <a href="https://github.com/Tarhyru" target="_blank" style="text-decoration: none; cursor: pointer;">TA的主页</a> <br> <img src="https://avatars1.githubusercontent.com/u/13960592?v=4" style="width: 100%; border-radius: 5px; margin-top: 5px;"></div>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                         <div style="text-align: center; margin-top: 10px;">
                                             <div class="el-pagination is-background"><button type="button" disabled="disabled" class="btn-prev"><i class="el-icon el-icon-arrow-left"></i></button>
@@ -132,14 +70,31 @@
             </div>
         </div>
     </section>
-    </Layout>
+</Layout>
 </template>
+
+<static-query>
+query{
+	fans: allStrapiSocial{
+    edges{
+      node{
+        id
+        name 
+        isFan
+        pic{
+          url
+        }
+      }
+    }
+  }  
+}
+</static-query>
 
 <script>
 export default {
-  metaInfo: {
-    title: 'Social'
-  }
+    metaInfo: {
+        title: 'Social'
+    },
 }
 </script>
 

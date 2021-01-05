@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bolgs",
+  "info": {
+    "name": "bolgs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "time": {
+      "type": "datetime"
+    },
+    "info": {
+      "type": "text"
+    }
+  }
+}

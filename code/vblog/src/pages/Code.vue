@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div>
-                <div class="el-card is-hover-shadow" style="margin-bottom: 20px;">
+                <div class="el-card is-hover-shadow" style="margin-bottom: 20px;" v-for="(item,index) in $static.codes.edges" :key="'codes'+index">
                     <div class="el-card__header">
                         <div>
                             <div class="el-row">
@@ -35,179 +35,28 @@
                     </div>
                     <div class="el-card__body">
                         <div style="font-size: 0.9rem; line-height: 1.5; color: rgb(96, 108, 113);">
-                            最近更新 2020-01-21 22:23:50
+                            最近更新 {{item.node.time}}
                         </div>
                         <div style="font-size: 1.1rem; line-height: 1.5; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
-                            Canvas utils
+                            {{item.node.name}}
                         </div>
                         <div style="font-size: 1.1rem; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
                             <div class="el-row">
                                 <div class="el-col el-col-16" style="padding-top: 5px;"><i class="el-icon-star-off el-tooltip" aria-describedby="el-tooltip-7427" tabindex="0" style="margin: 0px 5px 0px 0px;"></i>
-                                    0
+                                    {{item.node.fan}}
                                     <i class="el-icon-view el-tooltip" aria-describedby="el-tooltip-5886" tabindex="0" style="margin: 0px 5px 0px 15px;"></i>
-                                    0
+                                    {{item.node.look}}
                                     <i class="el-icon-bell el-tooltip" aria-describedby="el-tooltip-7712" tabindex="0" style="margin: 0px 5px 0px 15px;"></i>
-                                    0
+                                    {{item.node.tip}}
                                 </div>
-                                <div class="el-col el-col-8" style="text-align: right;"><span class="el-tag el-tag--danger el-tag--small">MIT
-                                        <!----></span> <span class="el-tag el-tag--success el-tag--small">JavaScript
+                                <div class="el-col el-col-8" style="text-align: right;"><span class="el-tag el-tag--danger el-tag--small">{{item.node.tags[0].name}}
+                                        <!----></span> <span class="el-tag el-tag--success el-tag--small">{{item.node.tags[1].name}}
                                         <!----></span></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="el-card is-hover-shadow" style="margin-bottom: 20px;">
-                    <div class="el-card__header">
-                        <div>
-                            <div class="el-row">
-                                <div class="el-col el-col-16"><span><a style="text-decoration: none; cursor: pointer;"><i class="el-icon-service"></i>&nbsp;&nbsp; card-platform
-                                        </a></span></div>
-                                <div class="el-col el-col-8">
-                                    <div style="text-align: right;"><button type="button" class="el-button el-button--text" style="padding: 3px 0px;">
-                                            <!----><i class="el-icon-back"></i><span>前往GitHub</span></button> <button type="button" class="el-button el-button--text" style="padding: 3px 0px;">
-                                            <!----><i class="el-icon-share"></i>
-                                            <!----></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="el-card__body">
-                        <div style="font-size: 0.9rem; line-height: 1.5; color: rgb(96, 108, 113);">
-                            最近更新 2019-09-27 22:02:58
-                        </div>
-                        <div style="font-size: 1.1rem; line-height: 1.5; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
-                            Card platform
-                        </div>
-                        <div style="font-size: 1.1rem; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
-                            <div class="el-row">
-                                <div class="el-col el-col-16" style="padding-top: 5px;"><i class="el-icon-star-off el-tooltip" aria-describedby="el-tooltip-5272" tabindex="0" style="margin: 0px 5px 0px 0px;"></i>
-                                    0
-                                    <i class="el-icon-view el-tooltip" aria-describedby="el-tooltip-8392" tabindex="0" style="margin: 0px 5px 0px 15px;"></i>
-                                    0
-                                    <i class="el-icon-bell el-tooltip" aria-describedby="el-tooltip-9379" tabindex="0" style="margin: 0px 5px 0px 15px;"></i>
-                                    0
-                                </div>
-                                <div class="el-col el-col-8" style="text-align: right;"><span class="el-tag el-tag--danger el-tag--small">MIT
-                                        <!----></span> <span class="el-tag el-tag--success el-tag--small">Java
-                                        <!----></span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="el-card is-hover-shadow" style="margin-bottom: 20px;">
-                    <div class="el-card__header">
-                        <div>
-                            <div class="el-row">
-                                <div class="el-col el-col-16"><span><a style="text-decoration: none; cursor: pointer;"><i class="el-icon-service"></i>&nbsp;&nbsp; code-generator
-                                        </a></span></div>
-                                <div class="el-col el-col-8">
-                                    <div style="text-align: right;"><button type="button" class="el-button el-button--text" style="padding: 3px 0px;">
-                                            <!----><i class="el-icon-back"></i><span>前往GitHub</span></button> <button type="button" class="el-button el-button--text" style="padding: 3px 0px;">
-                                            <!----><i class="el-icon-share"></i>
-                                            <!----></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="el-card__body">
-                        <div style="font-size: 0.9rem; line-height: 1.5; color: rgb(96, 108, 113);">
-                            最近更新 2020-12-28 16:02:24
-                        </div>
-                        <div style="font-size: 1.1rem; line-height: 1.5; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
-                            读取数据库表结构生成自定义代码
-                        </div>
-                        <div style="font-size: 1.1rem; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
-                            <div class="el-row">
-                                <div class="el-col el-col-16" style="padding-top: 5px;"><i class="el-icon-star-off el-tooltip" aria-describedby="el-tooltip-2441" tabindex="0" style="margin: 0px 5px 0px 0px;"></i>
-                                    60
-                                    <i class="el-icon-view el-tooltip" aria-describedby="el-tooltip-7581" tabindex="0" style="margin: 0px 5px 0px 15px;"></i>
-                                    60
-                                    <i class="el-icon-bell el-tooltip" aria-describedby="el-tooltip-9396" tabindex="0" style="margin: 0px 5px 0px 15px;"></i>
-                                    28
-                                </div>
-                                <div class="el-col el-col-8" style="text-align: right;"><span class="el-tag el-tag--danger el-tag--small">MIT
-                                        <!----></span> <span class="el-tag el-tag--success el-tag--small">Java
-                                        <!----></span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="el-card is-hover-shadow" style="margin-bottom: 20px;">
-                    <div class="el-card__header">
-                        <div>
-                            <div class="el-row">
-                                <div class="el-col el-col-16"><span><a style="text-decoration: none; cursor: pointer;"><i class="el-icon-service"></i>&nbsp;&nbsp; commons-mybatis
-                                        </a></span></div>
-                                <div class="el-col el-col-8">
-                                    <div style="text-align: right;"><button type="button" class="el-button el-button--text" style="padding: 3px 0px;">
-                                            <!----><i class="el-icon-back"></i><span>前往GitHub</span></button> <button type="button" class="el-button el-button--text" style="padding: 3px 0px;">
-                                            <!----><i class="el-icon-share"></i>
-                                            <!----></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="el-card__body">
-                        <div style="font-size: 0.9rem; line-height: 1.5; color: rgb(96, 108, 113);">
-                            最近更新 2020-04-12 22:56:01
-                        </div>
-                        <div style="font-size: 1.1rem; line-height: 1.5; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
-                            Mirror of Laziji Commons Mybatis
-                        </div>
-                        <div style="font-size: 1.1rem; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
-                            <div class="el-row">
-                                <div class="el-col el-col-16" style="padding-top: 5px;"><i class="el-icon-star-off el-tooltip" aria-describedby="el-tooltip-2798" tabindex="0" style="margin: 0px 5px 0px 0px;"></i>
-                                    8
-                                    <i class="el-icon-view el-tooltip" aria-describedby="el-tooltip-8254" tabindex="0" style="margin: 0px 5px 0px 15px;"></i>
-                                    8
-                                    <i class="el-icon-bell el-tooltip" aria-describedby="el-tooltip-8361" tabindex="0" style="margin: 0px 5px 0px 15px;"></i>
-                                    3
-                                </div>
-                                <div class="el-col el-col-8" style="text-align: right;"><span class="el-tag el-tag--danger el-tag--small">MIT
-                                        <!----></span> <span class="el-tag el-tag--success el-tag--small">Java
-                                        <!----></span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="el-card is-hover-shadow" style="margin-bottom: 20px;">
-                    <div class="el-card__header">
-                        <div>
-                            <div class="el-row">
-                                <div class="el-col el-col-16"><span><a style="text-decoration: none; cursor: pointer;"><i class="el-icon-service"></i>&nbsp;&nbsp; commons-parent
-                                        </a></span></div>
-                                <div class="el-col el-col-8">
-                                    <div style="text-align: right;"><button type="button" class="el-button el-button--text" style="padding: 3px 0px;">
-                                            <!----><i class="el-icon-back"></i><span>前往GitHub</span></button> <button type="button" class="el-button el-button--text" style="padding: 3px 0px;">
-                                            <!----><i class="el-icon-share"></i>
-                                            <!----></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="el-card__body">
-                        <div style="font-size: 0.9rem; line-height: 1.5; color: rgb(96, 108, 113);">
-                            最近更新 2018-11-28 10:31:23
-                        </div>
-                        <div style="font-size: 1.1rem; line-height: 1.5; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
-                            Mirror of Laziji Commons Parent
-                        </div>
-                        <div style="font-size: 1.1rem; color: rgb(48, 49, 51); padding: 10px 0px 0px;">
-                            <div class="el-row">
-                                <div class="el-col el-col-16" style="padding-top: 5px;"><i class="el-icon-star-off el-tooltip" aria-describedby="el-tooltip-5949" tabindex="0" style="margin: 0px 5px 0px 0px;"></i>
-                                    0
-                                    <i class="el-icon-view el-tooltip" aria-describedby="el-tooltip-1083" tabindex="0" style="margin: 0px 5px 0px 15px;"></i>
-                                    0
-                                    <i class="el-icon-bell el-tooltip" aria-describedby="el-tooltip-9097" tabindex="0" style="margin: 0px 5px 0px 15px;"></i>
-                                    0
-                                </div>
-                                <div class="el-col el-col-8" style="text-align: right;"><span class="el-tag el-tag--danger el-tag--small">MIT
-                                        <!----></span> <span class="el-tag el-tag--success el-tag--small">
-                                        <!----></span></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
                 <div style="text-align: center;">
                     <div class="el-pagination is-background"><button type="button" disabled="disabled" class="btn-prev"><i class="el-icon el-icon-arrow-left"></i></button>
                         <ul class="el-pager">
@@ -235,6 +84,26 @@
     </section>
 </Layout>
 </template>
+
+<static-query>
+query{
+	codes:allStrapiCode{
+    edges{
+      node{
+        fan
+        id
+        look
+        name
+        tip
+        time
+        tags{
+          name
+        }
+      }
+    }
+  }
+}
+</static-query>
 
 <script>
 export default {

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bolgs",
+      "handler": "bolgs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bolgs/count",
+      "handler": "bolgs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bolgs/:id",
+      "handler": "bolgs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bolgs",
+      "handler": "bolgs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bolgs/:id",
+      "handler": "bolgs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bolgs/:id",
+      "handler": "bolgs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

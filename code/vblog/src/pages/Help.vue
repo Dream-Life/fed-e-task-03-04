@@ -7,10 +7,10 @@
                 <div class="el-card__body">
                     <div role="tablist" aria-multiselectable="true" class="el-collapse">
                         <div class="el-collapse-item is-active">
-                            <div role="tab" aria-expanded="true" aria-controls="el-collapse-content-6635" aria-describedby="el-collapse-content-6635">
-                                <div role="button" id="el-collapse-head-6635" tabindex="0" class="el-collapse-item__header is-active"><i class="el-collapse-item__arrow el-icon-arrow-right is-active"></i>如何部署</div>
+                            <div role="tab" aria-expanded="true" aria-controls="el-collapse-content-4310" aria-describedby="el-collapse-content-4310">
+                                <div role="button" id="el-collapse-head-4310" tabindex="0" class="el-collapse-item__header is-active"><i class="el-collapse-item__arrow el-icon-arrow-right is-active"></i>如何部署</div>
                             </div>
-                            <div role="tabpanel" aria-labelledby="el-collapse-head-6635" id="el-collapse-content-6635" class="el-collapse-item__wrap">
+                            <div role="tabpanel" aria-labelledby="el-collapse-head-4310" id="el-collapse-content-4310" class="el-collapse-item__wrap">
                                 <div class="el-collapse-item__content">
                                     <div class="el-carousel">
                                         <div class="el-carousel__container" style="height: 352px;"><button type="button" class="el-carousel__arrow el-carousel__arrow--left" style="display: none;"><i class="el-icon-arrow-left"></i></button><button type="button" class="el-carousel__arrow el-carousel__arrow--right" style="display: none;"><i class="el-icon-arrow-right"></i></button>
@@ -81,10 +81,10 @@
                             </div>
                         </div>
                         <div class="el-collapse-item">
-                            <div role="tab" aria-controls="el-collapse-content-994" aria-describedby="el-collapse-content-994">
-                                <div role="button" id="el-collapse-head-994" tabindex="0" class="el-collapse-item__header"><i class="el-collapse-item__arrow el-icon-arrow-right"></i>如何使用</div>
+                            <div role="tab" aria-controls="el-collapse-content-605" aria-describedby="el-collapse-content-605">
+                                <div role="button" id="el-collapse-head-605" tabindex="0" class="el-collapse-item__header"><i class="el-collapse-item__arrow el-icon-arrow-right"></i>如何使用</div>
                             </div>
-                            <div role="tabpanel" aria-hidden="true" aria-labelledby="el-collapse-head-994" id="el-collapse-content-994" class="el-collapse-item__wrap" style="display: none;">
+                            <div role="tabpanel" aria-hidden="true" aria-labelledby="el-collapse-head-605" id="el-collapse-content-605" class="el-collapse-item__wrap" style="display: none;">
                                 <div class="el-collapse-item__content">
                                     <div class="el-carousel">
                                         <div class="el-carousel__container" style="height: 352px;"><button type="button" class="el-carousel__arrow el-carousel__arrow--left" style="display: none;"><i class="el-icon-arrow-left"></i></button><button type="button" class="el-carousel__arrow el-carousel__arrow--right" style="display: none;"><i class="el-icon-arrow-right"></i></button>
@@ -155,10 +155,10 @@
                             </div>
                         </div>
                         <div class="el-collapse-item">
-                            <div role="tab" aria-controls="el-collapse-content-6983" aria-describedby="el-collapse-content-6983">
-                                <div role="button" id="el-collapse-head-6983" tabindex="0" class="el-collapse-item__header"><i class="el-collapse-item__arrow el-icon-arrow-right"></i>开发注意事项</div>
+                            <div role="tab" aria-controls="el-collapse-content-1704" aria-describedby="el-collapse-content-1704">
+                                <div role="button" id="el-collapse-head-1704" tabindex="0" class="el-collapse-item__header"><i class="el-collapse-item__arrow el-icon-arrow-right"></i>开发注意事项</div>
                             </div>
-                            <div role="tabpanel" aria-hidden="true" aria-labelledby="el-collapse-head-6983" id="el-collapse-content-6983" class="el-collapse-item__wrap" style="display: none;">
+                            <div role="tabpanel" aria-hidden="true" aria-labelledby="el-collapse-head-1704" id="el-collapse-content-1704" class="el-collapse-item__wrap" style="display: none;">
                                 <div class="el-collapse-item__content">
                                     <div style="padding: 10px; line-height: 30px; color: rgb(48, 49, 51); font-size: 16px;">
                                         配置文件读取的总是与
